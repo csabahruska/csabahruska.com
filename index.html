@@ -36,6 +36,7 @@
   .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
+    height: 100vh;
   }
   .navbar {
     padding-top: 15px;
@@ -49,14 +50,23 @@
   .navbar-nav  li a:hover {
     color: #1abc9c !important;
   }
+  .center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+      justify-content: space-between;
+  }
   </style>
 </head>
 <body>
 
 
-<div class="container-fluid bg-1 text-center">
-  <h3 class="margin">I can identify and fix memory leaks and performance issues in your Haskell programs.</h3>
-  <h3>csaba.hruska@gmail.com</h3>
+<div class="container-fluid bg-1 text-center center-container">
+ <div>
+    <h3 class="margin">I can identify and fix memory leaks and performance issues in your Haskell programs.</h3>
+    <em><h3>csaba.hruska@gmail.com</h3></em>
+ </div>
 </div>
 
 
